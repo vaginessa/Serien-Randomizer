@@ -22,14 +22,17 @@ namespace SouthPark_Randomizer
     {
         private Episode[] ep;     // South Park
         private Episode[] fam;    // Family Guy
-        private Episode[] amer ;
+        private Episode[] amer ;  // American Dad
+        private Episode[] futu ;  // Futurama
         private Random rand;
+
         public MainWindow()
         {
             InitializeComponent();
             ep = new Episode[267];
             fam = new Episode[263];
             amer = new Episode[195] ;
+            futu = new Episode[140] ;
             rand = new Random();
             Init();          
         }
@@ -1035,6 +1038,35 @@ namespace SouthPark_Randomizer
                     break ;
                 #endregion
 
+                #region Futurama
+                case 3:
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            k = 0 ;
+                            break ;
+                        case 1:
+                            k = 13 ;
+                            break ;
+                        case 2:
+                            k = 33 ;
+                            break ;
+                        case 3:
+                            k = 48 ;
+                            break ;
+                        case 4:
+                            k = 60 ;
+                            break ;
+                        case 5:
+                            k = 76 ;
+                            break ;
+                        case 6:
+                            k = 102 ;
+                            break ;
+                    }
+                    break ;
+                #endregion
+
                 default:
                     k = 0;
                     break ;
@@ -1233,6 +1265,38 @@ namespace SouthPark_Randomizer
                                 break ;
                             case 11:
                                 i = 5 ;
+                                break ;
+                            default:
+                                i = 0;
+                                break ;
+                        }
+                        break ;
+                    #endregion
+
+                    #region Futurama
+                    case 3:
+                        switch(SeasoncomboBox.SelectedIndex)
+                        {
+                            case 0:
+                                i = 13 ;
+                                break ;
+                            case 1:
+                                i = 20;
+                                break ;
+                            case 2:
+                                i = 15 ;
+                                break ;
+                            case 3:
+                                i = 12 ;
+                                break ;
+                            case 4:
+                                i = 16 ;
+                                break ;
+                            case 5:
+                                i = 26 ;
+                                break ;
+                            case 6:
+                                i = 26 ;
                                 break ;
                             default:
                                 i = 0;
