@@ -22,7 +22,8 @@ namespace SouthPark_Randomizer
     {
         private Episode[] ep;     // South Park
         private Episode[] fam;    // Family Guy
-        private Episode[] amer ;
+        private Episode[] amer ;  // American Dad
+        private Episode[] futu;   // Futurama
         private Random rand;
         public MainWindow()
         {
@@ -30,6 +31,7 @@ namespace SouthPark_Randomizer
             ep = new Episode[267];
             fam = new Episode[263];
             amer = new Episode[195] ;
+            futu = new Episode[140];
             rand = new Random();
             Init();          
         }
@@ -1375,7 +1377,7 @@ namespace SouthPark_Randomizer
             catch(Exception)
             {
                 textBox.Text = "" ;
-                fImage.SOurce = null ;
+                fImage.Source = null ;
                 FolgecomboBox.SelectedIndex = -1 ;
             }   
         }
