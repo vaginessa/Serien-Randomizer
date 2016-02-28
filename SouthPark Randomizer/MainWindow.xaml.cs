@@ -31,7 +31,7 @@ namespace SouthPark_Randomizer
             ep = new Episode[267];
             fam = new Episode[263];
             amer = new Episode[195] ;
-            futu = new Episode[140];
+            futu = new Episode[128];
             rand = new Random();
             Init();          
         }
@@ -862,7 +862,147 @@ namespace SouthPark_Randomizer
             #endregion
 
             #region Futurama
-            
+            //Staffel 1
+            futu[0] = new Episode(1, 1, "Meanwhile", "http://geektv.me/watch/76305") ;
+            futu[1] = new Episode(1, 2, "The Series Has Landed", "http://geektv.me/watch/76303") ;
+            futu[2] = new Episode(1, 3, "i Roomate", "http://geektv.me/watch/76301") ;
+            futu[3] = new Episode(1, 4, "Loves Labors Lost in Space", "http://geektv.me/watch/76299") ;
+            futu[4] = new Episode(1, 5, "Fear of a Bot Planet", "http://geektv.me/watch/76297") ;
+            futu[5] = new Episode(1, 6, "A Fishful of Dollars", "http://geektv.me/watch/76296") ;
+            futu[6] = new Episode(1, 7, "My Three Suns", "http://geektv.me/watch/76294") ;
+            futu[7] = new Episode(1, 8, "A Big Piece of Garbage", "http://geektv.me/watch/76292") ;
+            futu[8] = new Episode(1, 9, "Hell Is Other Robots", "http://geektv.me/watch/76290") ;
+            futu[9] = new Episode(1, 10, "A Flight to Remember", "http://geektv.me/watch/76288") ;
+            futu[10] = new Episode(1, 11, "Mars University", "http://geektv.me/watch/76286") ;
+            futu[11] = new Episode(1, 12, "When Aliens Attack", "http://geektv.me/watch/76284") ;
+            futu[12] = new Episode(1, 13, "Fry and the Slurm Factory", "http://geektv.me/watch/76282") ;
+
+            //Staffel 2
+            futu[13] = new Episode(2, 1, "A Flight to Remember", "http://geektv.me/watch/76280") ;
+            futu[14] = new Episode(2, 2, "Mars University", "http://geektv.me/watch/76278") ;
+            futu[15] = new Episode(2, 3, "When Aliens Attack", "http://geektv.me/watch/76276") ;
+            futu[16] = new Episode(2, 4, "Fry and the Slurm Factory", "http://geektv.me/watch/76274") ;
+            futu[17] = new Episode(2, 5, "I Second That Emotion", "http://geektv.me/watch/76272") ;
+            futu[18] = new Episode(2, 6, "Brannigan Begin Again", "http://geektv.me/watch/76270") ;
+            futu[19] = new Episode(2, 7, "A Head in the Polls", "http://geektv.me/watch/76269") ;
+            futu[20] = new Episode(2, 8, "Xmas Story", "http://geektv.me/watch/76267") ;
+            futu[21] = new Episode(2, 9, "Why Must I Be a Crustacean in Love", "http://geektv.me/watch/76265") ;
+            futu[22] = new Episode(2, 10, "Put Your Head on My Shoulder", "http://geektv.me/watch/76263") ;
+            futu[23] = new Episode(2, 11, "Lesser of Two Evils", "http://geektv.me/watch/76261") ;
+            futu[24] = new Episode(2, 12, "Raging Bender", "http://geektv.me/watch/76259") ;
+            futu[25] = new Episode(2, 13, "A Bicyclops Built for Two", "http://geektv.me/watch/76257") ;
+            futu[26] = new Episode(2, 14, "How Hermes Requisitioned His Groove", "http://geektv.me/watch/76255") ;
+            futu[27] = new Episode(2, 15, "A Clone of My Own", "http://geektv.me/watch/76254") ;
+            futu[28] = new Episode(2, 16, "The Deep South", "http://geektv.me/watch/76252") ;
+            futu[29] = new Episode(2, 17, "Bender Gets Made", "http://geektv.me/watch/76250") ;
+            futu[30] = new Episode(2, 18, "The Problem With Popplers", "http://geektv.me/watch/76248") ;
+            futu[31] = new Episode(2, 19, "Mothers Day", "http://geektv.me/watch/76247") ;
+            futu[32] = new Episode(2, 20, "Anthology of Interest I", "http://geektv.me/watch/229019") ;
+
+            //Staffel 3
+            futu[33] = new Episode(3, 1, "The Honking", "http://geektv.me/watch/76245") ;
+            futu[34] = new Episode(3, 2, "War Is the H-Word", "http://geektv.me/watch/76243") ;
+            futu[35] = new Episode(3, 3, "The Cryonic Woman", "http://geektv.me/watch/76241") ;
+            futu[36] = new Episode(3, 4, "Parasites Lost", "http://geektv.me/watch/76239") ;
+            futu[37] = new Episode(3, 5, "Amazon Woman in the Mood", "http://geektv.me/watch/76237") ;
+            futu[38] = new Episode(3, 6, "Bendless Love", "http://geektv.me/watch/76235") ;
+            futu[39] = new Episode(3, 7, "The Day the Earth Stood Stupid", "http://geektv.me/watch/76233") ;
+            futu[40] = new Episode(3, 8, "Thats Lobstertainment", "http://geektv.me/watch/76231") ;
+            futu[41] = new Episode(3, 9, "The Birdbot of Ice-Catraz", "http://geektv.me/watch/76229") ;
+            futu[42] = new Episode(3, 10, "Luck of the Fryish", "http://geektv.me/watch/76227") ;
+            futu[43] = new Episode(3, 11, "The Cyber House Rules", "http://geektv.me/watch/76225") ;
+            futu[44] = new Episode(3, 12, "Insane in the Mainframe", "http://geektv.me/watch/76223") ;
+            futu[45] = new Episode(3, 13, "Bendin in the Wind", "http://geektv.me/watch/76221") ;
+            futu[46] = new Episode(3, 14, "Time Keeps on Slipping", "http://geektv.me/watch/76219") ;
+            futu[47] = new Episode(3, 15, "I Dated a Robot", "http://geektv.me/watch/76217") ;
+
+            //Staffel 4
+            futu[48] = new Episode(4, 1, "Roswell That Ends Well", "http://geektv.me/watch/76215") ;
+            futu[49] = new Episode(4, 2, "A Tale of Two Santas", "http://geektv.me/watch/76213") ;
+            futu[50] = new Episode(4, 3, "Anthology of Interest II", "http://geektv.me/watch/76211") ;
+            futu[51] = new Episode(4, 4, "Love and Rocket", "http://geektv.me/watch/76209") ;
+            futu[52] = new Episode(4, 5, "Leelas Homeworld", "http://geektv.me/watch/76208") ;
+            futu[53] = new Episode(4, 6, "Where the Buggalo Roam", "http://geektv.me/watch/76206") ;
+            futu[54] = new Episode(4, 7, "A Pharaoh to Remember", "http://geektv.me/watch/76204") ;
+            futu[55] = new Episode(4, 8, "Godfellas", "http://geektv.me/watch/76202") ;
+            futu[56] = new Episode(4, 9, "Futurestock", "http://geektv.me/watch/76200") ;
+            futu[57] = new Episode(4, 10, "A Leela of Her Own", "http://geektv.me/watch/76198") ;
+            futu[58] = new Episode(4, 11, "30% Iron Chef", "http://geektv.me/watch/76196") ;
+            futu[59] = new Episode(4, 12, "Where no Fan Has Gone Before", "http://geektv.me/watch/76195") ;
+
+            //Staffel 5
+            futu[60] = new Episode(5, 1, "Crimes of the Hot", "http://geektv.me/watch/76193") ;
+            futu[61] = new Episode(5, 2, "Jurassic Bark", "http://geektv.me/watch/76191") ;
+            futu[62] = new Episode(5, 3, "The Route of All Evil", "http://geektv.me/watch/76189") ;
+            futu[63] = new Episode(5, 4, "A Taste of Freedom", "http://geektv.me/watch/76187") ;
+            futu[64] = new Episode(5, 5, "Kif Gets Knocked Up a Notch", "http://geektv.me/watch/76185") ;
+            futu[65] = new Episode(5, 6, "Less Than Hero", "http://geektv.me/watch/76183") ;
+            futu[66] = new Episode(5, 7, "Teenage Mutant Leelas Hurdles", "http://geektv.me/watch/76181") ;
+            futu[67] = new Episode(5, 8, "The Why of Fry", "http://geektv.me/watch/76179") ;
+            futu[68] = new Episode(5, 9, "The Sting", "http://geektv.me/watch/76177") ;
+            futu[69] = new Episode(5, 10, "The Farnsworth Parabox", "http://geektv.me/watch/76175") ;
+            futu[70] = new Episode(5, 11, "Three Hundred Big Boys", "http://geektv.me/watch/76173") ;
+            futu[71] = new Episode(5, 12, "Spanish Fry", "http://geektv.me/watch/76171") ;
+            futu[72] = new Episode(5, 13, "Bend Her", "http://geektv.me/watch/76170") ;
+            futu[73] = new Episode(5, 14, "Obsoletely Fabulous", "http://geektv.me/watch/76168") ;
+            futu[74] = new Episode(5, 15, "Bender Should Not Be Allowed on Tel...", "http://geektv.me/watch/76166") ;
+            futu[75] = new Episode(5, 16, "The Devils Hands Are Idle Playthin...", "http://geektv.me/watch/76165") ;
+
+            //Staffel 6
+            futu[76] = new Episode(6, 1, "Rebirth", "http://geektv.me/watch/75749") ;
+            futu[77] = new Episode(6, 2, "In-A-Gadda-Da-Leela", "http://geektv.me/watch/75747") ;
+            futu[78] = new Episode(6, 3, "Attack of the Killer App", "http://geektv.me/watch/75745") ;
+            futu[79] = new Episode(6, 4, "Proposition Infinity", "http://geektv.me/watch/75743") ;
+            futu[80] = new Episode(6, 5, "The Duh-Vinci Code", "http://geektv.me/watch/75741") ;
+            futu[81] = new Episode(6, 6, "Lethal Inspection", "http://geektv.me/watch/75740") ;
+            futu[82] = new Episode(6, 7, "The Late Phillip J. Fry", "http://geektv.me/watch/75738") ;
+            futu[83] = new Episode(6, 8, "The Darn Katz!", "http://geektv.me/watch/75736") ;
+            futu[84] = new Episode(6, 9, "A Clockwork Origin", "http://geektv.me/watch/75734") ;
+            futu[85] = new Episode(6, 10, "The Prisoner Benda", "http://geektv.me/watch/75732") ;
+            futu[86] = new Episode(6, 11, "Lrrrecondilable Ndndifference", "http://geektv.me/watch/75731") ;
+            futu[87] = new Episode(6, 12, "The Mutans Are Revolting", "http://geektv.me/watch/75729") ;
+            futu[88] = new Episode(6, 13, "The Futurama Holiday Spectacular", "http://geektv.me/watch/75727") ;
+            futu[89] = new Episode(6, 14, "Neutopia", "http://geektv.me/watch/75725") ;
+            futu[90] = new Episode(6, 15, "Benderama", "http://geektv.me/watch/75723") ;
+            futu[91] = new Episode(6, 16, "Ghost in the Machines", "http://geektv.me/watch/75721") ;
+            futu[92] = new Episode(6, 17, "Law and Oracle", "http://geektv.me/watch/75720") ;
+            futu[93] = new Episode(6, 18, "The Silence of the Clamps", "http://geektv.me/watch/75718") ;
+            futu[94] = new Episode(6, 19, "Yo Leela Leela", "http://geektv.me/watch/75716") ;
+            futu[95] = new Episode(6, 20, "All The Presidents Heads", "http://geektv.me/watch/75715") ;
+            futu[96] = new Episode(6, 21, "Möbius Dick", "http://geektv.me/watch/75714") ;
+            futu[97] = new Episode(6, 22, "Fry am the Egg Man", "http://geektv.me/watch/75712") ;
+            futu[98] = new Episode(6, 23, "The Tip of the Zoidberg", "http://geektv.me/watch/75710") ;
+            futu[99] = new Episode(6, 24, "Cold Warriors", "http://geektv.me/watch/75708") ;
+            futu[100] = new Episode(6, 25, "Overclockwise", "http://geektv.me/watch/75706") ;
+            futu[101] = new Episode(6, 26, "Reincarnation", "http://geektv.me/watch/75704") ;
+
+            //Staffel 7
+            futu[102] = new Episode(7, 1, "The Bots and the Bees", "http://geektv.me/watch/74552") ;
+            futu[103] = new Episode(7, 2, "A Farewell to Arms", "http://geektv.me/watch/74550") ;
+            futu[104] = new Episode(7, 3, "Decision 3012", "http://geektv.me/watch/74548") ;
+            futu[105] = new Episode(7, 4, "The Thief of Baghead", "http://geektv.me/watch/74546") ;
+            futu[106] = new Episode(7, 5, "Zapp Dingbat", "http://geektv.me/watch/74544") ;
+            futu[107] = new Episode(7, 6, "The Butterjunk Effect", "http://geektv.me/watch/74542") ;
+            futu[108] = new Episode(7, 7, "The 6 Million Dollar Mon", "http://geektv.me/watch/74540") ;
+            futu[109] = new Episode(7, 8, "Fun on a Bun", "http://geektv.me/watch/74538");
+            futu[110] = new Episode(7, 9, "Free Will Hunting", "http://geektv.me/watch/74536") ;
+            futu[111] = new Episode(7, 10, "Near-Death Wish", "http://geektv.me/watch/74534") ;
+            futu[112] = new Episode(7, 11, "Viva Mars Veags", "http://geektv.me/watch/74532") ;
+            futu[113] = new Episode(7, 12, "31st Century Fox", "http://geektv.me/watch/74530") ;
+            futu[114] = new Episode(7, 13, "Naturama", "http://geektv.me/watch/74528") ;
+            futu[115] = new Episode(7, 14, "2-D-Blacktop", "http://geektv.me/watch/230909") ;
+            futu[116] = new Episode(7, 15, "Fry and Leelas Big Fling", "http://geektv.me/watch/230929") ;
+            futu[117] = new Episode(7, 16, "T. : The Terrestrial", "http://geektv.me/watch/69276") ;
+            futu[118] = new Episode(7, 17, "Fry and Leelas Big Fling", "http://geektv.me/watch/69278") ;
+            futu[119] = new Episode(7, 18, "The Inhuman Torch", "http://geektv.me/watch/69292") ;
+            futu[120] = new Episode(7, 19, "Saturday Morning Fun Pit", "http://geektv.me/watch/69280") ;
+            futu[121] = new Episode(7, 20, "Calculon 2.0", "http://geektv.me/watch/69282") ;
+            futu[122] = new Episode(7, 21, "Assie Come Home", "http://geektv.me/watch/69284") ;
+            futu[123] = new Episode(7, 22, "Leela and the Genestalk", "http://geektv.me/watch/69286") ;
+            futu[124] = new Episode(7, 23, "Game of Tones", "http://geektv.me/watch/69288") ;
+            futu[125] = new Episode(7, 24, "Murder on the Planet Express", "http://geektv.me/watch/74554") ;
+            futu[126] = new Episode(7, 25, "Stench and Stenchibillity", "http://geektv.me/watch/72860") ;
+            futu[127] = new Episode(7, 26, "Meanwhile", "http://geektv.me/watch/69290") ;
             #endregion
         }
 
