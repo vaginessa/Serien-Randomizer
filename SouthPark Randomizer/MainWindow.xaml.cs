@@ -856,7 +856,10 @@ namespace SouthPark_Randomizer
             amer[191] = new Episode(12, 2, "The Life Aquatic with Steve Smith", "http://geektv.me/watch/605020") ;
             amer[192] = new Episode(12, 3, "Hayley Smith, Seal Team Six", "http://geektv.me/watch/607339");
             amer[193] = new Episode(12, 4, "N.S.A (No Snoops Allowed)", "http://geektv.me/watch/610081") ;
-            amer[194] = new Episode(12, 5, "Stan Smith as Keanu Reeves as Stanny Utah in Point Breakers", "http://geektv.me/watch/613091") ;
+            amer[194] = new Episode(12, 5, "Stan Smith as Keanu Reeves as Stanny Utah in Point Breakers", "http://geektv.me/watch/613091") ;            
+            #endregion
+
+            #region Futurama
             
             #endregion
         }
@@ -1031,6 +1034,38 @@ namespace SouthPark_Randomizer
                         default:
                             k = 0;
                         break ;
+                    }
+                    break ;
+                #endregion
+
+                #region Futurama
+                case 3:
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            k = 0;
+                            break ;
+                        case 1:
+                            k = 13 ;
+                            break ;
+                        case 2:
+                            k = 33 ;
+                            break ;
+                        case 3:
+                            k = 48 ;
+                            break ;
+                        case 4:
+                            k = 60 ;
+                            break ;
+                        case 5:
+                            k = 76 ;
+                            break ;
+                        case 6:
+                            k = 102 ;
+                            break ;
+                        default:
+                            k = 0;
+                            break ;
                     }
                     break ;
                 #endregion
@@ -1241,6 +1276,38 @@ namespace SouthPark_Randomizer
                         break ;
                     #endregion
 
+                    #region Futurama
+                    case 3:
+                        switch(SeasoncomboBox.SelectedIndex)
+                        {
+                            case 0:
+                                i = 13 ;
+                                break ;
+                            case 1:
+                                i = 20 ;
+                                break ;
+                            case 2:
+                                i = 15 ;
+                                break ;
+                            case 3:
+                                i = 12 ;
+                                break ;
+                            case 4:
+                                i = 16 ;
+                                break ;
+                            case 5:
+                                i = 26 ;
+                                break ;
+                            case 6:
+                                i = 26 ;
+                                break ;
+                            default:
+                                i = 0;
+                                break ;
+                        }
+                        break ;
+                    #endregion
+
                     default:
                         break ;
             }       
@@ -1267,102 +1334,76 @@ namespace SouthPark_Randomizer
         // Titel der Folge eintragen
         private void FolgeChanged(object sender, SelectionChangedEventArgs e)
         {
-            int k = 0;
-            switch (SerieComboBox.SelectedIndex)
+            int k = getIndex() ;
+            k += FolgecomboBox.SelectedIndex ;
+            try
             {
-                #region SouthPark
-                case 0:  //South Park
-                    k = getIndex() ;
-                    k += FolgecomboBox.SelectedIndex;
+                switch (SerieComboBox.SelectedIndex)
+                {
+                    #region SouthPark
+                    case 0:  //South Park
+                        textBox.Text = ep[k].name ;
+                        fImage.Source = ep[k].image ;
+                        break;
+                    #endregion
 
-                    try
-                    {
-                        textBox.Text = ep[k].name;
-                        fImage.Source = ep[k].image;
-                    }
-                    catch (IndexOutOfRangeException)
-                    {
-                        FolgecomboBox.SelectedIndex = -1;
-                        textBox.Text = "";
-                        fImage.Source = null;
-                    }
-                    break;
-                #endregion
+                    #region FamilyGuy
+                    case 1:   //Family Guy
+                        textBox.Text = fam[k].name ;
+                        fImage.Source = null ;
+                        break;
+                    #endregion
 
-                #region FamilyGuy
-                case 1:   //Family Guy
-                    k = getIndex() ;
-                    k += FolgecomboBox.SelectedIndex;
-
-                    try
-                    {
-                        textBox.Text = fam[k].name;
-                        fImage.Source = null;
-                    }
-                    catch(IndexOutOfRangeException)
-                    {
-                        FolgecomboBox.SelectedIndex = -1;
-                        textBox.Text = "";
-                        fImage.Source = null;
-                    }
-                    break;
-                #endregion
-
-                #region American Dad
-                case 2:
-                    k = getIndex() ;
-                    k += FolgecomboBox.SelectedIndex ;
-
-                    try
-                    {
+                    #region American Dad
+                    case 2:
                         textBox.Text = amer[k].name ;
                         fImage.Source = null ;
-                    }
-                    catch(IndexOutOfRangeException)
-                    {
-                        FolgecomboBox.SelectedIndex = -1;
-                        textBox.Text = "" ;
-                        fImage.Source = null ;
-                    }
-                    catch(NullReferenceException)
-                    {
-                        textBox.Text = "";
-                        fImage.Source = null;
-                    }
-                    break ;
-                #endregion
+                        break ;
+                    #endregion
 
-                default:
-                    k = 0;
-                    break;
-            }        
+                    #region Futurama
+                    case 3:
+                        textBox.Text = futu[k].name ;
+                        fImage.Source = null ;
+                        break ;
+                    #endregion
+                    default:
+                        k = 0;
+                        break;
+                }     
+            }
+            catch(Exception)
+            {
+                textBox.Text = "" ;
+                fImage.SOurce = null ;
+                FolgecomboBox.SelectedIndex = -1 ;
+            }   
         }
 
         private void OpenClick(object sender, RoutedEventArgs e)
         {
-            int k;
+            int k = getIndex();
+            k += FolgecomboBox.SelectedIndex ;
 
             try
             {
                 switch (SerieComboBox.SelectedIndex)
                 {
                     case 0:  //South Park
-                        k = getIndex() ;
-                        k += FolgecomboBox.SelectedIndex;
                         ep[k].Open();
                         break;
 
                     case 1:  //Family Guy
-                        k = getIndex() ;
-                        k += FolgecomboBox.SelectedIndex;
                         fam[k].Open();
                         break;
 
                     case 2:  //American Dad
-                        k = getIndex() ;
-                        k += FolgecomboBox.SelectedIndex;
                         amer[k].Open();
                         break;
+
+                    case 3:    //Futurama
+                        futu[k].Open() ;
+                        break ;
 
                     default:
                         break;
@@ -1398,6 +1439,12 @@ namespace SouthPark_Randomizer
                     f = rand.Next(0, FolgecomboBox.Items.Count);
                     break;
 
+                case 3:
+                    s = rand.Next(0, 7) ;
+                    SeasoncomboBox.SelectedIndex = s ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    break ;
+
                 default:
                     s = -1;
                     SeasoncomboBox.SelectedIndex = s;
@@ -1422,6 +1469,9 @@ namespace SouthPark_Randomizer
                 case 2:
                     i = 12 ;
                 break ;
+                case 3:
+                    i = 7 ;
+                    break ;
                 default:
                     i = 0;
                     break;
@@ -1440,7 +1490,7 @@ namespace SouthPark_Randomizer
         private void ComplRandClick(object sender, RoutedEventArgs e)
         {
             int s, f, se ;
-            se = rand.Next(0, 3) ;
+            se = rand.Next(0, 4) ;
             SerieComboBox.SelectedIndex = se;
 
             switch(se)
@@ -1460,6 +1510,12 @@ namespace SouthPark_Randomizer
                 case 2:
                     s = rand.Next(0, 12) ;
                     SeasoncomboBox.SelectedIndex = s;
+                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    break ;
+
+                case 3:
+                    s = rand.Next(0, 7) ;
+                    SeasoncomboBox.SelectedIndex = s ;
                     f = rand.Next(0, FolgecomboBox.Items.Count) ;
                     break ;
 
