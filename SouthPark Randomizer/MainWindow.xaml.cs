@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -861,197 +861,188 @@ namespace SouthPark_Randomizer
             #endregion
         }
 
-        private int getSouthParkIndex(int s)
-        {
-            int k;
-            switch (s)
-            {
-                case 0:
-                    k = 0;
-                    break;
-
-                case 1:
-                    k = 13;
-                    break;
-
-                case 2:
-                    k = 31;
-                    break;
-
-                case 3:
-                    k = 48;
-                    break;
-
-                case 4:
-                    k = 65;
-                    break;
-
-                case 5:
-                    k = 79;
-                    break;
-
-                case 6:
-                    k = 96;
-                    break;
-
-                case 7:
-                    k = 111;
-                    break;
-
-                case 8:
-                    k = 125;
-                    break;
-
-                case 9:
-                    k = 139;
-                    break;
-
-                case 10:
-                    k = 153;
-                    break;
-
-                case 11:
-                    k = 167;
-                    break;
-
-                case 12:
-                    k = 181;
-                    break;
-
-                case 13:
-                    k = 195;
-                    break;
-
-                case 14:
-                    k = 209;
-                    break;
-
-                case 15:
-                    k = 223;
-                    break;
-
-                case 16:
-                    k = 237;
-                    break;
-
-                case 17:
-                    k = 247;
-                    break;
-
-                case 18:
-                    k = 257;
-                    break;
-
-                default:
-                    k = 0;
-                    break;
-            }
-
-            return k;
-        }
-
-        private int getFamilyGuyIndex(int s)
-        {
-            int k;
-            switch(s)
-            {
-                case 0:
-                    k = 0;
-                    break;
-                case 1:
-                    k = 7;
-                    break;
-                case 2:
-                    k = 28;
-                    break;
-                case 3:
-                    k = 50;
-                    break;
-                case 4:
-                    k = 80;
-                    break;
-                case 5:
-                    k = 98;
-                    break;
-                case 6:
-                    k = 110;
-                    break;
-                case 7:
-                    k = 126;
-                    break;
-                case 8:
-                    k = 147;
-                    break;
-                case 9:
-                    k = 165;
-                    break;
-                case 10:
-                    k = 188;
-                    break;
-                case 11:
-                    k = 210;
-                    break;
-                case 12:
-                    k = 231;
-                    break;
-                case 13:
-                    k = 249;
-                    break;
-                default:
-                    k = 0;
-                    break;
-            }
-            return k;
-        }
-
-        private int getAmericanDadIndex(int s)
+        private int getIndex()
         {
             int k ;
-            switch(s)
+
+            switch(SerieComboBox.SelectedIndex)
             {
-                case 0:
-                    k = 0;
-                break ;
+                #region SouthPark
+                case 0:   //South Park
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                        k = 0;
+                        break;
+                    case 1:
+                        k = 13;
+                        break;
+                    case 2:
+                        k = 31;
+                        break;
+                    case 3:
+                        k = 48;
+                        break;
+                    case 4:
+                        k = 65;
+                        break;
+                    case 5:
+                        k = 79;
+                        break;
+                    case 6:
+                        k = 96;
+                        break;
+                    case 7:
+                        k = 111;
+                        break;
+                    case 8:
+                        k = 125;
+                        break;
+                    case 9:
+                        k = 139;
+                        break;
+                    case 10:
+                        k = 153;
+                        break;
+                    case 11:
+                        k = 167;
+                        break;
+                    case 12:
+                        k = 181;
+                        break;
+                    case 13:
+                        k = 195;
+                        break;
+                    case 14:
+                        k = 209;
+                        break;
+                    case 15:
+                        k = 223;
+                        break;
+                    case 16:
+                        k = 237;
+                        break;
+                    case 17:
+                        k = 247;
+                        break;
+                    case 18:
+                        k = 257;
+                        break;
+                    default:
+                        k = 0;
+                        break;
+                    }
+                    break ;
+                #endregion
+
+                #region Family Guy
                 case 1:
-                    k = 23 ;
-                break ;
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            k = 0;
+                            break;
+                        case 1:
+                            k = 7;
+                            break;
+                        case 2:
+                            k = 28;
+                            break;
+                        case 3:
+                            k = 50;
+                            break;
+                        case 4:
+                            k = 80;
+                            break;
+                        case 5:
+                            k = 98;
+                            break;
+                        case 6:
+                            k = 110;
+                            break;
+                        case 7:
+                            k = 126;
+                            break;
+                        case 8:
+                            k = 147;
+                            break;
+                        case 9:
+                            k = 165;
+                            break;
+                        case 10:
+                            k = 188;
+                            break;
+                        case 11:
+                            k = 210;
+                            break;
+                        case 12:
+                            k = 231;
+                            break;
+                        case 13:
+                            k = 249;
+                            break;
+                        default:
+                            k = 0;
+                            break;
+                    }
+                    break ;
+                #endregion
+
+                #region American Dad
                 case 2:
-                    k = 42 ;
-                break ;
-                case 3:
-                    k = 58 ;
-                break ;
-                case 4:
-                    k = 78 ;
-                break ;
-                case 5:
-                    k = 96 ;
-                break ;
-                case 6:
-                    k = 115 ;
-                break ;
-                case 7:
-                    k = 133 ;
-                break ;
-                case 8:
-                    k = 152 ;
-                break ;
-                case 9:
-                    k = 172 ;
-                break ;
-                case 10:
-                    k = 175 ;
-                break ;
-                case 11:
-                    k = 190 ;
-                break ;
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            k = 0;
+                        break ;
+                        case 1:
+                            k = 23 ;
+                        break ;
+                        case 2:
+                            k = 42 ;
+                        break ;
+                        case 3:
+                            k = 58 ;
+                        break ;
+                        case 4:
+                            k = 78 ;
+                        break ;
+                        case 5:
+                            k = 96 ;
+                        break ;
+                        case 6:
+                            k = 115 ;
+                        break ;
+                        case 7:
+                            k = 133 ;
+                        break ;
+                        case 8:
+                            k = 152 ;
+                        break ;
+                        case 9:
+                            k = 172 ;
+                        break ;
+                        case 10:
+                            k = 175 ;
+                        break ;
+                        case 11:
+                            k = 190 ;
+                        break ;
+                        default:
+                            k = 0;
+                        break ;
+                    }
+                    break ;
+                #endregion
+
                 default:
                     k = 0;
-                break ;
-            }
+                    break ;
 
+            }
             return k ;
         }
+
 
         // Richtige Anzahl an Folgen für ausgewählte Season
         private void SeasonChanged(object sender, SelectionChangedEventArgs e)
@@ -1281,7 +1272,7 @@ namespace SouthPark_Randomizer
             {
                 #region SouthPark
                 case 0:  //South Park
-                    k = getSouthParkIndex(SeasoncomboBox.SelectedIndex);
+                    k = getIndex() ;
                     k += FolgecomboBox.SelectedIndex;
 
                     try
@@ -1300,7 +1291,7 @@ namespace SouthPark_Randomizer
 
                 #region FamilyGuy
                 case 1:   //Family Guy
-                    k = getFamilyGuyIndex(SeasoncomboBox.SelectedIndex);
+                    k = getIndex() ;
                     k += FolgecomboBox.SelectedIndex;
 
                     try
@@ -1319,7 +1310,7 @@ namespace SouthPark_Randomizer
 
                 #region American Dad
                 case 2:
-                    k = getAmericanDadIndex(SeasoncomboBox.SelectedIndex) ;
+                    k = getIndex() ;
                     k += FolgecomboBox.SelectedIndex ;
 
                     try
@@ -1356,19 +1347,19 @@ namespace SouthPark_Randomizer
                 switch (SerieComboBox.SelectedIndex)
                 {
                     case 0:  //South Park
-                        k = getSouthParkIndex(SeasoncomboBox.SelectedIndex);
+                        k = getIndex() ;
                         k += FolgecomboBox.SelectedIndex;
                         ep[k].Open();
                         break;
 
                     case 1:  //Family Guy
-                        k = getFamilyGuyIndex(SeasoncomboBox.SelectedIndex);
+                        k = getIndex() ;
                         k += FolgecomboBox.SelectedIndex;
                         fam[k].Open();
                         break;
 
                     case 2:  //American Dad
-                        k = getAmericanDadIndex(SeasoncomboBox.SelectedIndex);
+                        k = getIndex() ;
                         k += FolgecomboBox.SelectedIndex;
                         amer[k].Open();
                         break;
