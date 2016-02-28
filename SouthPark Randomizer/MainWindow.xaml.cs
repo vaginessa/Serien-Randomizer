@@ -1382,26 +1382,29 @@ namespace SouthPark_Randomizer
             {
                 case 0:
                     s = rand.Next(0, 19);
+                    SeasoncomboBox.SelectedIndex = s;
                     f = rand.Next(0, FolgecomboBox.Items.Count);
                     break;
 
                 case 1:
                     s = rand.Next(0, 14);
+                    SeasoncomboBox.SelectedIndex = s;
                     f = rand.Next(0, FolgecomboBox.Items.Count);
                     break;
 
                 case 2:
                     s = rand.Next(0, 12);
+                    SeasoncomboBox.SelectedIndex = s;
                     f = rand.Next(0, FolgecomboBox.Items.Count);
                     break;
 
                 default:
-                    s = 0;
-                    f = 0;
+                    s = -1;
+                    SeasoncomboBox.SelectedIndex = s;
+                    f = -1;
                     break;
             }
 
-            SeasoncomboBox.SelectedIndex = s;
             FolgecomboBox.SelectedIndex = f;
         }
 
@@ -1434,5 +1437,40 @@ namespace SouthPark_Randomizer
             SeasoncomboBox.SelectedIndex = -1;
         }
 
+        private void ComplRandClick(object sender, RoutedEventArgs e)
+        {
+            int s, f, se ;
+            se = rand.Next(0, 3) ;
+            SerieComboBox.SelectedIndex = se;
+
+            switch(se)
+            {
+                case 0:
+                    s = rand.Next(0, 19) ;
+                    SeasoncomboBox.SelectedIndex = s;
+                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    break ;
+
+                case 1:
+                    s = rand.Next(0, 14) ;
+                    SeasoncomboBox.SelectedIndex = s;
+                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    break ;
+
+                case 2:
+                    s = rand.Next(0, 12) ;
+                    SeasoncomboBox.SelectedIndex = s;
+                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    break ;
+
+                default:
+                    s = -1;
+                    SeasoncomboBox.SelectedIndex = s;
+                    f = -1 ;
+                    break ;
+            }
+
+            FolgecomboBox.SelectedIndex = f ;
+        }
     }
 }
