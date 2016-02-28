@@ -1392,7 +1392,7 @@ namespace SouthPark_Randomizer
 
                 case 2:
                     s = rand.Next(0, 12);
-                    f = rand.Next(0, FolgecomboBox.SelectedIndex);
+                    f = rand.Next(0, FolgecomboBox.Items.Count);
                     break;
 
                 default:
