@@ -31,7 +31,7 @@ namespace SouthPark_Randomizer
             ep = new Episode[267];
             fam = new Episode[263];
             amer = new Episode[196] ;
-            futu = new Episode[128];
+            futu = new Episode[123];
             rand = new Random();
             Init();          
         }
@@ -864,146 +864,141 @@ namespace SouthPark_Randomizer
 
             #region Futurama
             //Staffel 1
-            futu[0] = new Episode(1, 1, "Meanwhile", "http://geektv.me/watch/76305") ;
-            futu[1] = new Episode(1, 2, "The Series Has Landed", "http://geektv.me/watch/76303") ;
-            futu[2] = new Episode(1, 3, "i Roomate", "http://geektv.me/watch/76301") ;
-            futu[3] = new Episode(1, 4, "Loves Labors Lost in Space", "http://geektv.me/watch/76299") ;
-            futu[4] = new Episode(1, 5, "Fear of a Bot Planet", "http://geektv.me/watch/76297") ;
-            futu[5] = new Episode(1, 6, "A Fishful of Dollars", "http://geektv.me/watch/76296") ;
-            futu[6] = new Episode(1, 7, "My Three Suns", "http://geektv.me/watch/76294") ;
-            futu[7] = new Episode(1, 8, "A Big Piece of Garbage", "http://geektv.me/watch/76292") ;
-            futu[8] = new Episode(1, 9, "Hell Is Other Robots", "http://geektv.me/watch/76290") ;
-            futu[9] = new Episode(1, 10, "A Flight to Remember", "http://geektv.me/watch/76288") ;
-            futu[10] = new Episode(1, 11, "Mars University", "http://geektv.me/watch/76286") ;
-            futu[11] = new Episode(1, 12, "When Aliens Attack", "http://geektv.me/watch/76284") ;
-            futu[12] = new Episode(1, 13, "Fry and the Slurm Factory", "http://geektv.me/watch/76282") ;
+            futu[0] = new Episode(1, 1, "Space Pilot 3000", "http://www.kisspanda.net/futurama-season-1-episode-1-space-pilot-3000/") ;
+            futu[1] = new Episode(1, 2, "The Series Has Landen", "http://www.kisspanda.net/futurama-season-1-episode-2-the-series-has-landed/") ;
+            futu[2] = new Episode(1, 3, "I, Roomate", "http://www.kisspanda.net/futurama-season-1-episode-3-i-roommate/") ;
+            futu[3] = new Episode(1, 4, "Love's Labours Lost in Space", "http://www.kisspanda.net/futurama-season-1-episode-4-loves-labours-lost-in-space/") ;
+            futu[4] = new Episode(1, 5, "Fear of a Bot Planet", "http://www.kisspanda.net/futurama-season-1-episode-5-fear-of-a-bot-planet/") ;
+            futu[5] = new Episode(1, 6, "A Fishful of Dollars", "http://www.kisspanda.net/futurama-season-1-episode-6-a-fishful-of-dollars/") ;
+            futu[6] = new Episode(1, 7, "My Three Suns", "http://www.kisspanda.net/futurama-season-1-episode-7-my-three-suns/") ;
+            futu[7] = new Episode(1, 8, "A Big Piece of Garbage", "http://www.kisspanda.net/futurama-season-1-episode-8-a-big-piece-of-garbage/") ;
+            futu[8] = new Episode(1, 9, "Hell Is Other Robots", "http://www.kisspanda.net/futurama-season-1-episode-9-hell-is-other-robots/") ;
 
             //Staffel 2
-            futu[13] = new Episode(2, 1, "A Flight to Remember", "http://geektv.me/watch/76280") ;
-            futu[14] = new Episode(2, 2, "Mars University", "http://geektv.me/watch/76278") ;
-            futu[15] = new Episode(2, 3, "When Aliens Attack", "http://geektv.me/watch/76276") ;
-            futu[16] = new Episode(2, 4, "Fry and the Slurm Factory", "http://geektv.me/watch/76274") ;
-            futu[17] = new Episode(2, 5, "I Second That Emotion", "http://geektv.me/watch/76272") ;
-            futu[18] = new Episode(2, 6, "Brannigan Begin Again", "http://geektv.me/watch/76270") ;
-            futu[19] = new Episode(2, 7, "A Head in the Polls", "http://geektv.me/watch/76269") ;
-            futu[20] = new Episode(2, 8, "Xmas Story", "http://geektv.me/watch/76267") ;
-            futu[21] = new Episode(2, 9, "Why Must I Be a Crustacean in Love", "http://geektv.me/watch/76265") ;
-            futu[22] = new Episode(2, 10, "Put Your Head on My Shoulder", "http://geektv.me/watch/76263") ;
-            futu[23] = new Episode(2, 11, "Lesser of Two Evils", "http://geektv.me/watch/76261") ;
-            futu[24] = new Episode(2, 12, "Raging Bender", "http://geektv.me/watch/76259") ;
-            futu[25] = new Episode(2, 13, "A Bicyclops Built for Two", "http://geektv.me/watch/76257") ;
-            futu[26] = new Episode(2, 14, "How Hermes Requisitioned His Groove", "http://geektv.me/watch/76255") ;
-            futu[27] = new Episode(2, 15, "A Clone of My Own", "http://geektv.me/watch/76254") ;
-            futu[28] = new Episode(2, 16, "The Deep South", "http://geektv.me/watch/76252") ;
-            futu[29] = new Episode(2, 17, "Bender Gets Made", "http://geektv.me/watch/76250") ;
-            futu[30] = new Episode(2, 18, "The Problem With Popplers", "http://geektv.me/watch/76248") ;
-            futu[31] = new Episode(2, 19, "Mothers Day", "http://geektv.me/watch/76247") ;
-            futu[32] = new Episode(2, 20, "Anthology of Interest I", "http://geektv.me/watch/229019") ;
+            futu[9] = new Episode(2, 1, "A Flight to Remember", "http://www.kisspanda.net/futurama-season-2-episode-1-a-flight-to-remember/") ;
+            futu[10] = new Episode(2, 2, "Mars University", "http://www.kisspanda.net/futurama-season-2-episode-2-mars-university/") ;
+            futu[11] = new Episode(2, 3, "When Aliens Attack", "http://www.kisspanda.net/futurama-season-2-episode-3-when-aliens-attack/") ;
+            futu[12] = new Episode(2, 4, "Fry and the Slurm Factory", "http://www.kisspanda.net/futurama-season-2-episode-4-fry-and-the-slurm-factory/") ;
+            futu[13] = new Episode(2, 5, "I Second That Emotion", "http://www.kisspanda.net/futurama-season-2-episode-5-i-second-that-emotion/") ;
+            futu[14] = new Episode(2, 6, "Brannigan, Begin Again", "http://www.kisspanda.net/futurama-season-2-episode-6-brannigan-begin-again/") ;
+            futu[15] = new Episode(2, 7, "A HEad in the Polls", "http://www.kisspanda.net/futurama-season-2-episode-7-a-head-in-the-polls/") ;
+            futu[16] = new Episode(2, 8, "Xmas Story", "http://www.kisspanda.net/futurama-season-2-episode-8-xmas-story/") ;
+            futu[17] = new Episode(2, 9, "Why Must I Be a Crustacean in Love?", "http://www.kisspanda.net/futurama-season-2-episode-9-why-must-i-be-a-crustacean-in-love/") ;
+            futu[18] = new Episode(2, 10, "Put Your Head in My Shoulders", "http://www.kisspanda.net/futurama-season-2-episode-10-put-your-head-on-my-shoulders/") ;
+            futu[19] = new Episode(2, 11, "The Lesser of Two Evils", "http://www.kisspanda.net/futurama-season-2-episode-11-the-lesser-of-two-evils/") ;
+            futu[20] = new Episode(2, 12, "Raging Bender", "http://www.kisspanda.net/futurama-season-2-episode-12-raging-bender/") ;
+            futu[21] = new Episode(2, 13, "A Bicyclops Built for Two", "http://www.kisspanda.net/futurama-season-2-episode-13-a-bicyclops-built-for-two/") ;
+            futu[22] = new Episode(2, 14, "How Hermes Requisitioned His Groove Back", "http://www.kisspanda.net/futurama-season-2-episode-14-how-hermes-requisitioned-his-groove-back/") ;
+            futu[23] = new Episode(2, 15, "A Clone of My Own", "http://www.kisspanda.net/futurama-season-2-episode-15-a-clone-of-my-own/") ;
+            futu[24] = new Episode(2, 16, "The Deep South", "http://www.kisspanda.net/futurama-season-2-episode-16-the-deep-south/") ;
+            futu[25] = new Episode(2, 17, "Bender Gets Made", "http://www.kisspanda.net/futurama-season-2-episode-17-bender-gets-made/") ;
+            futu[26] = new Episode(2, 18, "The Problems with Popplers", "http://www.kisspanda.net/futurama-season-2-episode-18-the-problem-with-popplers/") ;
+            futu[27] = new Episode(2, 19, "Mother's Day", "http://www.kisspanda.net/futurama-season-2-episode-19-mothers-day/") ;
+            futu[28] = new Episode(2, 20, "Anthology of Interest I", "http://www.kisspanda.net/futurama-season-2-episode-20-anthology-of-interest-i/") ;
 
             //Staffel 3
-            futu[33] = new Episode(3, 1, "The Honking", "http://geektv.me/watch/76245") ;
-            futu[34] = new Episode(3, 2, "War Is the H-Word", "http://geektv.me/watch/76243") ;
-            futu[35] = new Episode(3, 3, "The Cryonic Woman", "http://geektv.me/watch/76241") ;
-            futu[36] = new Episode(3, 4, "Parasites Lost", "http://geektv.me/watch/76239") ;
-            futu[37] = new Episode(3, 5, "Amazon Woman in the Mood", "http://geektv.me/watch/76237") ;
-            futu[38] = new Episode(3, 6, "Bendless Love", "http://geektv.me/watch/76235") ;
-            futu[39] = new Episode(3, 7, "The Day the Earth Stood Stupid", "http://geektv.me/watch/76233") ;
-            futu[40] = new Episode(3, 8, "Thats Lobstertainment", "http://geektv.me/watch/76231") ;
-            futu[41] = new Episode(3, 9, "The Birdbot of Ice-Catraz", "http://geektv.me/watch/76229") ;
-            futu[42] = new Episode(3, 10, "Luck of the Fryish", "http://geektv.me/watch/76227") ;
-            futu[43] = new Episode(3, 11, "The Cyber House Rules", "http://geektv.me/watch/76225") ;
-            futu[44] = new Episode(3, 12, "Insane in the Mainframe", "http://geektv.me/watch/76223") ;
-            futu[45] = new Episode(3, 13, "Bendin in the Wind", "http://geektv.me/watch/76221") ;
-            futu[46] = new Episode(3, 14, "Time Keeps on Slipping", "http://geektv.me/watch/76219") ;
-            futu[47] = new Episode(3, 15, "I Dated a Robot", "http://geektv.me/watch/76217") ;
+            futu[29] = new Episode(3, 1, "The Honking", "http://www.kisspanda.net/futurama-season-3-episode-1-the-honking/") ;
+            futu[30] = new Episode(3, 2, "War Is the H-Word", "http://www.kisspanda.net/futurama-season-3-episode-2-war-is-the-h-word/") ;
+            futu[31] = new Episode(3, 3, "The Cryonic Woman", "http://www.kisspanda.net/futurama-season-3-episode-3-the-cryonic-woman/") ;
+            futu[32] = new Episode(3, 4, "Parasites Lost", "http://www.kisspanda.net/futurama-season-3-episode-4-parasites-lost/") ;
+            futu[33] = new Episode(3, 5, "Amazon Women in the Mood", "http://www.kisspanda.net/futurama-season-3-episode-5-amazon-women-in-the-mood/") ;
+            futu[34] = new Episode(3, 6, "Bendless Love", "http://www.kisspanda.net/futurama-season-3-episode-6-bendless-love/") ;
+            futu[35] = new Episode(3, 7, "The Day the Earth Stood Stupid", "http://www.kisspanda.net/futurama-season-3-episode-7-the-day-the-earth-stood-stupid/") ;
+            futu[36] = new Episode(3, 8, "That's Lobstertainment", "http://www.kisspanda.net/futurama-season-3-episode-8-thats-lobstertainment/") ;
+            futu[37] = new Episode(3, 9, "The Birdbot of Ice-Catraz", "http://www.kisspanda.net/futurama-season-3-episode-9-the-birdbot-of-ice-catraz/") ;
+            futu[38] = new Episode(3, 10, "The Luck of the Fryish", "http://www.kisspanda.net/futurama-season-3-episode-10-the-luck-of-the-fryrish/") ;
+            futu[39] = new Episode(3, 11, "The Cyber House Rules", "http://www.kisspanda.net/futurama-season-3-episode-11-the-cyber-house-rules/") ;
+            futu[40] = new Episode(3, 12, "Insane in the Mainframe", "http://www.kisspanda.net/futurama-season-3-episode-12-insane-in-the-mainframe/") ;
+            futu[41] = new Episode(3, 13, "Bendin' in the Wind", "http://www.kisspanda.net/futurama-season-3-episode-13-bendin-in-the-wind/") ;
+            futu[42] = new Episode(3, 14, "Time Keeps on Slipping", "http://www.kisspanda.net/futurama-season-3-episode-14-time-keeps-on-slipping/") ;
 
             //Staffel 4
-            futu[48] = new Episode(4, 1, "Roswell That Ends Well", "http://geektv.me/watch/76215") ;
-            futu[49] = new Episode(4, 2, "A Tale of Two Santas", "http://geektv.me/watch/76213") ;
-            futu[50] = new Episode(4, 3, "Anthology of Interest II", "http://geektv.me/watch/76211") ;
-            futu[51] = new Episode(4, 4, "Love and Rocket", "http://geektv.me/watch/76209") ;
-            futu[52] = new Episode(4, 5, "Leelas Homeworld", "http://geektv.me/watch/76208") ;
-            futu[53] = new Episode(4, 6, "Where the Buggalo Roam", "http://geektv.me/watch/76206") ;
-            futu[54] = new Episode(4, 7, "A Pharaoh to Remember", "http://geektv.me/watch/76204") ;
-            futu[55] = new Episode(4, 8, "Godfellas", "http://geektv.me/watch/76202") ;
-            futu[56] = new Episode(4, 9, "Futurestock", "http://geektv.me/watch/76200") ;
-            futu[57] = new Episode(4, 10, "A Leela of Her Own", "http://geektv.me/watch/76198") ;
-            futu[58] = new Episode(4, 11, "30% Iron Chef", "http://geektv.me/watch/76196") ;
-            futu[59] = new Episode(4, 12, "Where no Fan Has Gone Before", "http://geektv.me/watch/76195") ;
+            futu[43] = new Episode(4, 1, "Roswell That Ends Well", "http://www.kisspanda.net/futurama-season-4-episode-1-roswell-that-ends-well/") ;
+            futu[44] = new Episode(4, 2, "A Tale of Two Santas", "http://www.kisspanda.net/futurama-season-4-episode-2-a-tale-of-two-santas/") ;
+            futu[45] = new Episode(4, 3, "Anthology of Interest II", "http://www.kisspanda.net/futurama-season-4-episode-3-anthology-of-interest-ii/") ;
+            futu[46] = new Episode(4, 4, "Love and Rocket", "http://www.kisspanda.net/futurama-season-4-episode-4-love-and-rocket/") ;
+            futu[47] = new Episode(4, 5, "Leela's Homeworld", "http://www.kisspanda.net/futurama-season-4-episode-5-leelas-homeworld/") ;
+            futu[48] = new Episode(4, 6, "Where the Buggalo Roam", "http://www.kisspanda.net/futurama-season-4-episode-6-where-the-buggalo-roam/") ;
+            futu[49] = new Episode(4, 7, "A Pharaoh to Remember", "http://www.kisspanda.net/futurama-season-4-episode-7-a-pharaoh-to-remember/") ;
+            futu[50] = new Episode(4, 8, "Godfellas", "http://www.kisspanda.net/futurama-season-4-episode-8-godfellas/") ;
+            futu[51] = new Episode(4, 9, "Future Shock", "http://www.kisspanda.net/futurama-season-4-episode-9-future-stock/") ;
+            futu[52] = new Episode(4, 10, "A Leela of Her Own", "http://www.kisspanda.net/futurama-season-4-episode-10-a-leela-of-her-own/") ;
+            futu[53] = new Episode(4, 11, "30% Iron Chef", "http://www.kisspanda.net/futurama-season-4-episode-11-30-iron-chef/") ;
+            futu[54] = new Episode(4, 12, "Where No Fan Has Gone Before", "http://www.kisspanda.net/futurama-season-4-episode-12-where-no-fan-has-gone-before/") ;
 
             //Staffel 5
-            futu[60] = new Episode(5, 1, "Crimes of the Hot", "http://geektv.me/watch/76193") ;
-            futu[61] = new Episode(5, 2, "Jurassic Bark", "http://geektv.me/watch/76191") ;
-            futu[62] = new Episode(5, 3, "The Route of All Evil", "http://geektv.me/watch/76189") ;
-            futu[63] = new Episode(5, 4, "A Taste of Freedom", "http://geektv.me/watch/76187") ;
-            futu[64] = new Episode(5, 5, "Kif Gets Knocked Up a Notch", "http://geektv.me/watch/76185") ;
-            futu[65] = new Episode(5, 6, "Less Than Hero", "http://geektv.me/watch/76183") ;
-            futu[66] = new Episode(5, 7, "Teenage Mutant Leelas Hurdles", "http://geektv.me/watch/76181") ;
-            futu[67] = new Episode(5, 8, "The Why of Fry", "http://geektv.me/watch/76179") ;
-            futu[68] = new Episode(5, 9, "The Sting", "http://geektv.me/watch/76177") ;
-            futu[69] = new Episode(5, 10, "The Farnsworth Parabox", "http://geektv.me/watch/76175") ;
-            futu[70] = new Episode(5, 11, "Three Hundred Big Boys", "http://geektv.me/watch/76173") ;
-            futu[71] = new Episode(5, 12, "Spanish Fry", "http://geektv.me/watch/76171") ;
-            futu[72] = new Episode(5, 13, "Bend Her", "http://geektv.me/watch/76170") ;
-            futu[73] = new Episode(5, 14, "Obsoletely Fabulous", "http://geektv.me/watch/76168") ;
-            futu[74] = new Episode(5, 15, "Bender Should Not Be Allowed on Tel...", "http://geektv.me/watch/76166") ;
-            futu[75] = new Episode(5, 16, "The Devils Hands Are Idle Playthin...", "http://geektv.me/watch/76165") ;
+            futu[55] = new Episode(5, 1, "Crimes of the Hot", "http://www.kisspanda.net/futurama-season-5-episode-1-crimes-of-the-hot/") ;
+            futu[56] = new Episode(5, 2, "Jurassic Bark", "http://www.kisspanda.net/futurama-season-5-episode-2-jurassic-bark/") ;
+            futu[57] = new Episode(5, 3, "The Route of All Evil", "http://www.kisspanda.net/futurama-season-5-episode-3-the-route-of-all-evil/") ;
+            futu[58] = new Episode(5, 4, "A Taste of Freedom", "http://www.kisspanda.net/futurama-season-5-episode-4-a-taste-of-freedom/") ;
+            futu[59] = new Episode(5, 5, "Kif Gets Knocked Up a Notch", "http://www.kisspanda.net/futurama-season-5-episode-5-kif-gets-knocked-up-a-notch/") ;
+            futu[60] = new Episode(5, 6, "Less Than Hero", "http://www.kisspanda.net/futurama-season-5-episode-6-less-than-hero/") ;
+            futu[61] = new Episode(5, 7, "Teenage Mutant Leela's Hurdles", "http://www.kisspanda.net/futurama-season-5-episode-7-teenage-mutant-leelas-hurdles/") ;
+            futu[62] = new Episode(5, 8, "The Why of Fry", "http://www.kisspanda.net/futurama-season-5-episode-8-the-why-of-fry/") ;
+            futu[63] = new Episode(5, 9, "The Sting", "http://www.kisspanda.net/futurama-season-5-episode-9-the-sting/") ;
+            futu[64] = new Episode(5, 10, "The Farnsworth Parabox", "http://www.kisspanda.net/futurama-season-5-episode-10-the-farnsworth-parabox/") ;
+            futu[65] = new Episode(5, 11, "Three Hundred Big Boys", "http://www.kisspanda.net/futurama-season-5-episode-11-three-hundred-big-boys/") ;
+            futu[66] = new Episode(5, 12, "Spanish Fry", "http://www.kisspanda.net/futurama-season-5-episode-12-spanish-fry/") ;
+            futu[67] = new Episode(5, 13, "Bend Her", "http://www.kisspanda.net/futurama-season-5-episode-13-bend-her/") ;
+            futu[68] = new Episode(5, 14, "Obsoletely Fabulous", "http://www.kisspanda.net/futurama-season-5-episode-14-obsoletely-fabulous/") ;
+            futu[69] = new Episode(5, 15, "Bender Should Not Be Allowed on TV", "http://www.kisspanda.net/futurama-season-5-episode-15-bender-should-not-be-allowed-on-tv/") ;
+            futu[70] = new Episode(5, 16, "The Devil's Hands Are Idle Playthings", "http://www.kisspanda.net/futurama-season-5-episode-16-the-devils-hands-are-idle-playthings/") ;
 
             //Staffel 6
-            futu[76] = new Episode(6, 1, "Rebirth", "http://geektv.me/watch/75749") ;
-            futu[77] = new Episode(6, 2, "In-A-Gadda-Da-Leela", "http://geektv.me/watch/75747") ;
-            futu[78] = new Episode(6, 3, "Attack of the Killer App", "http://geektv.me/watch/75745") ;
-            futu[79] = new Episode(6, 4, "Proposition Infinity", "http://geektv.me/watch/75743") ;
-            futu[80] = new Episode(6, 5, "The Duh-Vinci Code", "http://geektv.me/watch/75741") ;
-            futu[81] = new Episode(6, 6, "Lethal Inspection", "http://geektv.me/watch/75740") ;
-            futu[82] = new Episode(6, 7, "The Late Phillip J. Fry", "http://geektv.me/watch/75738") ;
-            futu[83] = new Episode(6, 8, "The Darn Katz!", "http://geektv.me/watch/75736") ;
-            futu[84] = new Episode(6, 9, "A Clockwork Origin", "http://geektv.me/watch/75734") ;
-            futu[85] = new Episode(6, 10, "The Prisoner Benda", "http://geektv.me/watch/75732") ;
-            futu[86] = new Episode(6, 11, "Lrrrecondilable Ndndifference", "http://geektv.me/watch/75731") ;
-            futu[87] = new Episode(6, 12, "The Mutans Are Revolting", "http://geektv.me/watch/75729") ;
-            futu[88] = new Episode(6, 13, "The Futurama Holiday Spectacular", "http://geektv.me/watch/75727") ;
-            futu[89] = new Episode(6, 14, "Neutopia", "http://geektv.me/watch/75725") ;
-            futu[90] = new Episode(6, 15, "Benderama", "http://geektv.me/watch/75723") ;
-            futu[91] = new Episode(6, 16, "Ghost in the Machines", "http://geektv.me/watch/75721") ;
-            futu[92] = new Episode(6, 17, "Law and Oracle", "http://geektv.me/watch/75720") ;
-            futu[93] = new Episode(6, 18, "The Silence of the Clamps", "http://geektv.me/watch/75718") ;
-            futu[94] = new Episode(6, 19, "Yo Leela Leela", "http://geektv.me/watch/75716") ;
-            futu[95] = new Episode(6, 20, "All The Presidents Heads", "http://geektv.me/watch/75715") ;
-            futu[96] = new Episode(6, 21, "Möbius Dick", "http://geektv.me/watch/75714") ;
-            futu[97] = new Episode(6, 22, "Fry am the Egg Man", "http://geektv.me/watch/75712") ;
-            futu[98] = new Episode(6, 23, "The Tip of the Zoidberg", "http://geektv.me/watch/75710") ;
-            futu[99] = new Episode(6, 24, "Cold Warriors", "http://geektv.me/watch/75708") ;
-            futu[100] = new Episode(6, 25, "Overclockwise", "http://geektv.me/watch/75706") ;
-            futu[101] = new Episode(6, 26, "Reincarnation", "http://geektv.me/watch/75704") ;
+            futu[71] = new Episode(6, 1, "Rebirth", "http://www.kisspanda.net/futurama-season-6-episode-1-rebirth/") ;
+            futu[72] = new Episode(6, 2, "In-A-Gadda-Da-Leela", "http://www.kisspanda.net/futurama-season-6-episode-2-in-a-gadda-da-leela/") ;
+            futu[73] = new Episode(6, 3, "Attack of the Killer App", "http://www.kisspanda.net/futurama-season-6-episode-3-attack-of-the-killer-app/") ;
+            futu[74] = new Episode(6, 4, "Proposition Infinity", "http://www.kisspanda.net/futurama-season-6-episode-4-proposition-infinity/") ;
+            futu[75] = new Episode(6, 5, "The Duh-Vinci Code", "http://www.kisspanda.net/futurama-season-6-episode-5-the-duh-vinci-code/") ;
+            futu[76] = new Episode(6, 6, "Lethal Inspection", "http://www.kisspanda.net/futurama-season-6-episode-6-lethal-inspection/") ;
+            futu[77] = new Episode(6, 7, "The Late Phillip J. Fry", "http://www.kisspanda.net/futurama-season-6-episode-7-the-late-philip-j-fry/") ;
+            futu[78] = new Episode(6, 8, "The Darn Katz!", "http://www.kisspanda.net/futurama-season-6-episode-8-that-darn-katz/") ;
+            futu[79] = new Episode(6, 9, "A Clockwork Origin", "http://www.kisspanda.net/futurama-season-6-episode-9-a-clockwork-origin/") ;
+            futu[80] = new Episode(6, 10, "The Prisoner of Benda", "http://www.kisspanda.net/futurama-season-6-episode-10-the-prisoner-of-benda/") ;
+            futu[81] = new Episode(6, 11, "Lrrreconcilable Ndndifferences", "http://www.kisspanda.net/futurama-season-6-episode-11-lrrreconcilable-ndndifferences/") ;
+            futu[82] = new Episode(6, 12, "The Mutants Are Revolting", "http://www.kisspanda.net/futurama-season-6-episode-12-the-mutants-are-revolting/") ;
+            futu[83] = new Episode(6, 13, "The Futurama Holiday Spectacular", "http://www.kisspanda.net/futurama-season-6-episode-13-the-futurama-holiday-spectacular/") ;
+            futu[84] = new Episode(6, 14, "Neutopia", "http://www.kisspanda.net/futurama-season-6-episode-14-neutopia/") ;
+            futu[85] = new Episode(6, 15, "Benderama", "http://www.kisspanda.net/futurama-season-6-episode-15-benderama/") ;
+            futu[86] = new Episode(6, 16, "Ghost in the Machines", "http://www.kisspanda.net/futurama-season-6-episode-16-ghost-in-the-machines/") ;
+            futu[87] = new Episode(6, 17, "Law and Oracle", "http://www.kisspanda.net/futurama-season-6-episode-17-law-and-oracle/") ;
+            futu[88] = new Episode(6, 18, "The Silence of the Clamps", "http://www.kisspanda.net/futurama-season-6-episode-18-the-silence-of-the-clamps/") ;
+            futu[89] = new Episode(6, 19, "Yo Leela Leela", "http://www.kisspanda.net/futurama-season-6-episode-19-yo-leela-leela/") ;
+            futu[90] = new Episode(6, 20, "All the President's Heads", "http://www.kisspanda.net/futurama-season-6-episode-20-all-the-presidents-heads/") ;
+            futu[91] = new Episode(6, 21, "Möbius Dick", "http://www.kisspanda.net/futurama-season-6-episode-21-mobius-dick/") ;
+            futu[92] = new Episode(6, 22, "Fry Am the Egg Man", "http://www.kisspanda.net/futurama-season-6-episode-22-fry-am-the-egg-man/") ;
+            futu[93] = new Episode(6, 23, "The Tip of the Zoidberg", "http://www.kisspanda.net/futurama-season-6-episode-23-the-tip-of-the-zoidberg/") ;
+            futu[94] = new Episode(6, 24, "Cold Warriors", "http://www.kisspanda.net/futurama-season-6-episode-24-cold-warriors/") ;
+            futu[95] = new Episode(6, 25, "Overclockwise", "http://www.kisspanda.net/futurama-season-6-episode-25-overclockwise/") ;
+            futu[96] = new Episode(6, 26, "Reincarnation", "http://www.kisspanda.net/futurama-season-6-episode-26-reincarnation/") ;
 
             //Staffel 7
-            futu[102] = new Episode(7, 1, "The Bots and the Bees", "http://geektv.me/watch/74552") ;
-            futu[103] = new Episode(7, 2, "A Farewell to Arms", "http://geektv.me/watch/74550") ;
-            futu[104] = new Episode(7, 3, "Decision 3012", "http://geektv.me/watch/74548") ;
-            futu[105] = new Episode(7, 4, "The Thief of Baghead", "http://geektv.me/watch/74546") ;
-            futu[106] = new Episode(7, 5, "Zapp Dingbat", "http://geektv.me/watch/74544") ;
-            futu[107] = new Episode(7, 6, "The Butterjunk Effect", "http://geektv.me/watch/74542") ;
-            futu[108] = new Episode(7, 7, "The 6 Million Dollar Mon", "http://geektv.me/watch/74540") ;
-            futu[109] = new Episode(7, 8, "Fun on a Bun", "http://geektv.me/watch/74538");
-            futu[110] = new Episode(7, 9, "Free Will Hunting", "http://geektv.me/watch/74536") ;
-            futu[111] = new Episode(7, 10, "Near-Death Wish", "http://geektv.me/watch/74534") ;
-            futu[112] = new Episode(7, 11, "Viva Mars Veags", "http://geektv.me/watch/74532") ;
-            futu[113] = new Episode(7, 12, "31st Century Fox", "http://geektv.me/watch/74530") ;
-            futu[114] = new Episode(7, 13, "Naturama", "http://geektv.me/watch/74528") ;
-            futu[115] = new Episode(7, 14, "2-D-Blacktop", "http://geektv.me/watch/230909") ;
-            futu[116] = new Episode(7, 15, "Fry and Leelas Big Fling", "http://geektv.me/watch/230929") ;
-            futu[117] = new Episode(7, 16, "T. : The Terrestrial", "http://geektv.me/watch/69276") ;
-            futu[118] = new Episode(7, 17, "Fry and Leelas Big Fling", "http://geektv.me/watch/69278") ;
-            futu[119] = new Episode(7, 18, "The Inhuman Torch", "http://geektv.me/watch/69292") ;
-            futu[120] = new Episode(7, 19, "Saturday Morning Fun Pit", "http://geektv.me/watch/69280") ;
-            futu[121] = new Episode(7, 20, "Calculon 2.0", "http://geektv.me/watch/69282") ;
-            futu[122] = new Episode(7, 21, "Assie Come Home", "http://geektv.me/watch/69284") ;
-            futu[123] = new Episode(7, 22, "Leela and the Genestalk", "http://geektv.me/watch/69286") ;
-            futu[124] = new Episode(7, 23, "Game of Tones", "http://geektv.me/watch/69288") ;
-            futu[125] = new Episode(7, 24, "Murder on the Planet Express", "http://geektv.me/watch/74554") ;
-            futu[126] = new Episode(7, 25, "Stench and Stenchibillity", "http://geektv.me/watch/72860") ;
-            futu[127] = new Episode(7, 26, "Meanwhile", "http://geektv.me/watch/69290") ;
+            futu[97] = new Episode(7, 1, "The Bots and the Bees", "http://www.kisspanda.net/futurama-season-7-episode-1-the-bots-and-the-bees/") ;
+            futu[98] = new Episode(7, 2, "A Farewell to Arms", "http://www.kisspanda.net/futurama-season-7-episode-2-a-farewell-to-arms/") ;
+            futu[99] = new Episode(7, 3, "Decision 3012", "http://www.kisspanda.net/futurama-season-7-episode-3-decision-3012/") ;
+            futu[100] = new Episode(7, 4, "The Thief of Baghead", "http://www.kisspanda.net/futurama-season-7-episode-4-the-thief-of-baghead/") ;
+            futu[101] = new Episode(7, 5, "Zapp Dingbar", "http://www.kisspanda.net/futurama-season-7-episode-5-zapp-dingbat/") ;
+            futu[102] = new Episode(7, 6, "The Butterjunk Effect", "http://www.kisspanda.net/futurama-season-7-episode-6-the-butterjunk-effect/") ;
+            futu[103] = new Episode(7, 7, "The Six Million Dollar Mon", "http://www.kisspanda.net/futurama-season-7-episode-7-the-six-million-dollar-mon/") ;
+            futu[104] = new Episode(7, 8, "Fun on a Bun", "http://www.kisspanda.net/futurama-season-7-episode-8-fun-on-a-bun/") ;
+            futu[105] = new Episode(7, 9, "Free Will Hunting", "http://www.kisspanda.net/futurama-season-7-episode-9-free-will-hunting/") ;
+            futu[106] = new Episode(7, 10, "Near-Death Wish", "http://www.kisspanda.net/futurama-season-7-episode-10-near-death-wish/") ;
+            futu[107] = new Episode(7, 11, "Viva Mars Vegas", "http://www.kisspanda.net/futurama-season-7-episode-11-viva-mars-vegas/") ;
+            futu[108] = new Episode(7, 12, "31st Century Fox", "http://www.kisspanda.net/futurama-season-7-episode-12-31st-century-fox/") ;
+            futu[109] = new Episode(7, 13, "Naturama", "http://www.kisspanda.net/futurama-season-7-episode-13-naturama/") ;
+            futu[110] = new Episode(7, 14, "2-D Blacktop", "http://www.kisspanda.net/futurama-season-7-episode-14-2-d-blacktop/") ;
+            futu[111] = new Episode(7, 15, "Fry and Leela's Big Fling", "http://www.kisspanda.net/futurama-season-7-episode-15-fry-and-leelas-big-fling/") ;
+            futu[112] = new Episode(7, 16, "T. : The Terrestrial", "http://www.kisspanda.net/futurama-season-7-episode-16-t-the-terrestrial/") ;
+            futu[113] = new Episode(7, 17, "Forty Percent Leadbelly", "http://www.kisspanda.net/futurama-season-7-episode-17-forty-percent-leadbelly/") ;
+            futu[114] = new Episode(7, 18, "The Inhuman Torch", "http://www.kisspanda.net/futurama-season-7-episode-18-the-inhuman-torch/") ;
+            futu[115] = new Episode(7, 19, "Saturday Morning Fun Pit", "http://www.kisspanda.net/futurama-season-7-episode-19-saturday-morning-fun-pit/") ;
+            futu[116] = new Episode(7, 20, "Calculon 2.0", "http://www.kisspanda.net/futurama-season-7-episode-20-calculon-2-0/") ;
+            futu[117] = new Episode(7, 21, "Assie Come Home", "http://www.kisspanda.net/futurama-season-7-episode-21-assie-come-home/") ;
+            futu[118] = new Episode(7, 22, "Leela and the Genestalk", "http://www.kisspanda.net/futurama-season-7-episode-22-leela-and-the-genestalk/") ;
+            futu[119] = new Episode(7, 23, "Game of Tones", "http://www.kisspanda.net/futurama-season-7-episode-23-game-of-tones/") ;
+            futu[120] = new Episode(7, 24, "Murder on the Planet Express", "http://www.kisspanda.net/futurama-season-7-episode-24-murder-on-the-planet-express/") ;
+            futu[121] = new Episode(7, 25, "Stench and Stenchibility", "http://www.kisspanda.net/futurama-season-7-episode-25-stench-and-stenchibility/") ;
+            futu[122] = new Episode(7, 26, "Meanwhile", "http://www.kisspanda.net/futurama-season-7-episode-26-meanwhile/") ;
             #endregion
         }
 
@@ -1189,22 +1184,22 @@ namespace SouthPark_Randomizer
                             k = 0;
                             break ;
                         case 1:
-                            k = 13 ;
+                            k = 9 ;
                             break ;
                         case 2:
-                            k = 33 ;
+                            k = 29 ;
                             break ;
                         case 3:
-                            k = 48 ;
+                            k = 43 ;
                             break ;
                         case 4:
-                            k = 60 ;
+                            k = 55 ;
                             break ;
                         case 5:
-                            k = 76 ;
+                            k = 71 ;
                             break ;
                         case 6:
-                            k = 102 ;
+                            k = 97 ;
                             break ;
                         default:
                             k = 0;
@@ -1372,87 +1367,87 @@ namespace SouthPark_Randomizer
                     break;
                     #endregion
 
-                    #region American Dad
-                    case 2:
-                        switch(SeasoncomboBox.SelectedIndex)
-                        {
-                            case 0:
-                                i = 23 ;
-                                break ;
-                            case 1:
-                                i = 19 ;
-                                break ;
-                            case 2:
-                                i = 16 ;
-                                break ;
-                            case 3:
-                                i = 20 ;
-                                break ;
-                            case 4:
-                                i = 18 ;
-                                break ;
-                            case 5:
-                                i = 19 ;
-                                break ;
-                            case 6:
-                                i = 18 ;
-                                break ;
-                            case 7:
-                                i = 19 ;
-                                break ;
-                            case 8:
-                                i = 20 ;
-                                break ;
-                            case 9:
-                                i = 3 ;
-                                break ;
-                            case 10:
-                                i = 15 ;
-                                break ;
-                            case 11:
-                                i = 5 ;
-                                break ;
-                            default:
-                                i = 0;
-                                break ;
-                        }
-                        break ;
-                    #endregion
+                #region American Dad
+                case 2:
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            i = 23 ;
+                            break ;
+                        case 1:
+                            i = 19 ;
+                            break ;
+                        case 2:
+                            i = 16 ;
+                            break ;
+                        case 3:
+                            i = 20 ;
+                            break ;
+                        case 4:
+                            i = 18 ;
+                            break ;
+                        case 5:
+                            i = 19 ;
+                            break ;
+                        case 6:
+                            i = 18 ;
+                            break ;
+                        case 7:
+                            i = 19 ;
+                            break ;
+                        case 8:
+                            i = 20 ;
+                            break ;
+                        case 9:
+                            i = 3 ;
+                            break ;
+                        case 10:
+                            i = 15 ;
+                            break ;
+                        case 11:
+                            i = 5 ;
+                            break ;
+                        default:
+                            i = 0;
+                            break ;
+                    }
+                    break ;
+                #endregion
 
-                    #region Futurama
-                    case 3:
-                        switch(SeasoncomboBox.SelectedIndex)
-                        {
-                            case 0:
-                                i = 13 ;
-                                break ;
-                            case 1:
-                                i = 20 ;
-                                break ;
-                            case 2:
-                                i = 15 ;
-                                break ;
-                            case 3:
-                                i = 12 ;
-                                break ;
-                            case 4:
-                                i = 16 ;
-                                break ;
-                            case 5:
-                                i = 26 ;
-                                break ;
-                            case 6:
-                                i = 26 ;
-                                break ;
-                            default:
-                                i = 0;
-                                break ;
-                        }
-                        break ;
-                    #endregion
+                #region Futurama
+                case 3:
+                    switch(SeasoncomboBox.SelectedIndex)
+                    {
+                        case 0:
+                            i = 9 ;
+                            break ;
+                        case 1:
+                            i = 20 ;
+                            break ;
+                        case 2:
+                            i = 14 ;
+                            break ;
+                        case 3:
+                            i = 12 ;
+                            break ;
+                        case 4:
+                            i = 16 ;
+                            break ;
+                        case 5:
+                            i = 26 ;
+                            break ;
+                        case 6:
+                            i = 26 ;
+                            break ;
+                        default:
+                            i = 0;
+                            break ;
+                    }
+                    break ;
+                #endregion
 
-                    default:
-                        break ;
+                default:
+                    break ;
             }       
 
             FolgecomboBox.Items.Clear();
@@ -1567,25 +1562,25 @@ namespace SouthPark_Randomizer
                 case 0:
                     s = rand.Next(0, 19);
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count);
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1);
                     break;
 
                 case 1:
                     s = rand.Next(0, 14);
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count);
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1);
                     break;
 
                 case 2:
                     s = rand.Next(0, 12);
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count);
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1);
                     break;
 
                 case 3:
                     s = rand.Next(0, 7) ;
                     SeasoncomboBox.SelectedIndex = s ;
-                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1) ;
                     break ;
 
                 default:
@@ -1641,25 +1636,25 @@ namespace SouthPark_Randomizer
                 case 0:
                     s = rand.Next(0, 19) ;
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1) ;
                     break ;
 
                 case 1:
                     s = rand.Next(0, 14) ;
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1) ;
                     break ;
 
                 case 2:
                     s = rand.Next(0, 12) ;
                     SeasoncomboBox.SelectedIndex = s;
-                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1) ;
                     break ;
 
                 case 3:
                     s = rand.Next(0, 7) ;
                     SeasoncomboBox.SelectedIndex = s ;
-                    f = rand.Next(0, FolgecomboBox.Items.Count) ;
+                    f = rand.Next(0, FolgecomboBox.Items.Count - 1) ;
                     break ;
 
                 default:

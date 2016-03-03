@@ -27,6 +27,7 @@
             <ComboBoxItem Content="Futurama" />
         </ComboBox>
         <Button x:Name="ComplRandButton" Content="Complete Random" HorizontalAlignment="Left" Margin="38,186,0,0" VerticalAlignment="Top" Width="122" Click="ComplRandClick"/>
+        <Label x:Name="label5" Content="Label" HorizontalAlignment="Left" Margin="66,294,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
